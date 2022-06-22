@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <!-- Default screen margins, per the Android Design guidelines. -->
+        <dimen name="activity_horizontal_margin">16dp</dimen>
+        <dimen name="activity_vertical_margin">16dp</dimen>
+
+        <!-- ESPACAMENTOS -->
+        <dimen name="espacamento_xg">36dp</dimen>
+        <dimen name="espacamento_g">24dp</dimen>
+        <dimen name="espacamento_n">16dp</dimen>
+        <dimen name="espacamento_p">12dp</dimen>
+        <dimen name="espacamento_xp">8dp</dimen>
+        <dimen name="espacamento_xxp">4dp</dimen>
+        <dimen name="espacamento_xxxp">2dp</dimen>
+        <dimen name="default_card_margin">8dp</dimen>
+        <!--<dimen name="half_card_margin">4dp</dimen>-->
+        <dimen name="margin_label_icon">10dp</dimen>
+        <dimen name="min_margin_between_components">6dp</dimen>
+        <dimen name="min_margin_between_little_components">4dp</dimen>
+        <dimen name="margin_esquerda_card_com_faixa">16dp</dimen>
+        <dimen name="formulario_padding_vertical">5dp</dimen>
+
+        <!-- ALTURAS E LARGURAS -->
+        <!--<dimen name="fab_margin">16dp</dimen>-->
+        <dimen name="component_height_control">36dp</dimen>
+        <dimen name="height_edt_formulario">42dp</dimen>
+        <dimen name="component_height_strong">56dp</dimen>
+        <dimen name="normal_icon_dimen">36dp</dimen>
+        <dimen name="large_icon_dimen">56dp</dimen>
+        <dimen name="height_topic_layout">46dp</dimen>
+
+        <!-- FONTES -->
+        <dimen name="fonte_xxg">18sp</dimen>
+        <dimen name="fonte_xg">16sp</dimen>
+        <dimen name="fonte_g">14sp</dimen>
+        <dimen name="fonte_n">13sp</dimen>
+        <dimen name="fonte_p">12sp</dimen>
+        <dimen name="fonte_xp">11sp</dimen>
+        <dimen name="fonte_xxp">10sp</dimen>
+
+        <dimen name="default_text_size">@dimen/fonte_n</dimen>
+        <dimen name="formulario_text_size">@dimen/fonte_xg</dimen>
+        <dimen name="default_text_button_size">@dimen/default_text_size</dimen>
+        <dimen name="strong_title_activity">36sp</dimen>
+        <dimen name="font_topic_title">14sp</dimen>
+        <dimen name="font_topic_content">16sp</dimen>
+        <dimen name="strong_title_description_activity">@dimen/default_text_size</dimen>
+        <dimen name="icon_label_title_size">11dp</dimen>
+        <dimen name="icon_label_content_size">15sp</dimen>
+        <dimen name="font_texto_pequeno_cartao_simples">11sp</dimen>
+        <dimen name="font_texto_micro_cartao_simples">10sp</dimen>
+        <dimen name="font_texto_nano_cartao_simples">9sp</dimen>
+        <dimen name="font_texto_destaque_cartao_simples">20sp</dimen>
+
+        <!-- CARDS -->
+        <dimen name="card_radius">8dp</dimen>
+        <dimen name="altura_card_simples">100dp</dimen>
+        <dimen name="margin_horizontal_card_simples">5dp</dimen>
+        <dimen name="margin_vertical_card_simples">5dp</dimen>
+
+        <!-- RAIOS -->
+        <dimen name="raio_suave">3dp</dimen>
+
+        <!-- DIMENSOES IMAGENS -->
+        <dimen name="largura_icon_cartao_credito">24dp</dimen>
+        <dimen name="altura_icon_cartao_credito">36dp</dimen>
+
+        <!-- DIMENSOES ESPECIFICAS -->
+        <!-- DIMENSOES ESPECIFICAS: ACTIVITY PAGAMENTO -->
+        <dimen name="margin_top_icon">9dp</dimen>
+
+        <!-- DIMENSOES ESPECIFICAS: CARD ABASTECIMENTO -->
+        <!--<dimen name="height_card_abastecimento">160dp</dimen>-->
+        <!--dimen name="padding_content_card_abastecimento">30dp</dimen-->
+
+        <!-- DIMENSOES ESPECIFICAS: CARD BICO -->
+        <dimen name="title_card_bico">20sp</dimen>
+        <dimen name="subtitle_card_bico">10sp</dimen>
+        <dimen name="bico_margin_top_icon_bico">20dp</dimen>
+        <dimen name="bico_margin_bottom_icon_bico">30dp</dimen>
+        <dimen name="bico_size_num_abastecimento">32sp</dimen>
+
+        <!-- DIMENSOES ESPECIFICAS: CARD HISTORICO PAGAMENTO -->
+        <dimen name="largura_faixa_card">7dp</dimen>
+        <dimen name="margin_entre_txtcartao_imgcartao">5dp</dimen>
+        <!--<dimen name="margin_top_tp_pagamento">30dp</dimen>-->
+        <!--<dimen name="margin_top_valor_pagamento">38dp</dimen>-->
+
+        <!-- DIMENSOES ESPECIFICAS: DIALOG IP -->
+        <!--<dimen name="width_edt_ip">60dp</dimen>-->
+
+        <!-- DIMENSOES ESPECIFICAS: DIALOG EMAIL -->
+        <dimen name="width_edt_email">240dp</dimen>
+        <dimen name="email_margin_top_buttons">6dp</dimen>
+
+        <!-- DIMENSOES ESPECIFICAS: LEGENDA DE TELA -->
+        <dimen name="clegenda_padding_top">0dp</dimen>
+        <dimen name="clegenda_padding_bottom">0dp</dimen>
+        <dimen name="clegenda_text_size">10.5sp</dimen>
+        <dimen name="ilegenda_width">13.5dp</dimen>
+        <dimen name="ilegenda_height">5.5dp</dimen>
+        <dimen name="ilegennda_margin_para_descricao">6dp</dimen>
+        <dimen name="ilegennda_margin_entre_itens">10dp</dimen>
+
+        <!-- DIMENSOES ESPECIFICAS: DETALHE -->
+        <dimen name="margin_horizontal_card_detalhe">8dp</dimen>
+        <dimen name="padding_horizontal_card_linha">4dp</dimen>
+        <dimen name="margin_vertical_card_detalhe">6dp</dimen>
+        <dimen name="margin_separador_detalhe">3dp</dimen>
+        <dimen name="size_detalhe_transacao_titulo">12sp</dimen>
+        <dimen name="size_detalhe_transacao_label">15sp</dimen>
+        <dimen name="size_detalhe_transacao_valor">15sp</dimen>
+
+        <!-- DIMENSOES ESPECIFICAS: LOGIN -->
+        <dimen name="margin_login_titulo_top">36dp</dimen>
+        <dimen name="margin_login_titulo_bottom">48dp</dimen>
+
+        <!-- EDIT_IP -->
+        <dimen name="padding_horizontal_editip">5dp</dimen>
+        <dimen name="min_width_editip">42dp</dimen>
+
+        <!-- NAVIGATION DRAWER -->
+        <dimen name="nav_header_vertical_spacing">16dp</dimen>
+        <dimen name="nav_header_height">180dp</dimen>
+        <dimen name="nav_size_email">@dimen/default_text_size</dimen>
+
+        <!-- DIMENSOES ESPECIFICAS: PRE_CONFIG -->
+        <dimen name="pre_config_margin_titulo">4dp</dimen>
+
+        <!-- DIMENSOES ESPECIFICAS: CARD PRODUTO -->
+        <dimen name="pro_btn">40dp</dimen>
+        <dimen name="pro_btn_margin_right">3dp</dimen>
+        <dimen name="fab_margin">16dp</dimen>
+        <dimen name="small_margin">8dp</dimen>
+
+        <!--Limite Fragment dimensions-->
+        <dimen name="limitFrag_width">350dp</dimen>
+        <dimen name="limitFrag_heigth">370dp</dimen>
+        <dimen name="small_padding">8dp</dimen>
+        <dimen name="button_radius">8dp</dimen>
+
+        <!--Fitlro FRAG DIMEN-->
+        <dimen name="filtro_frag_width">400dp</dimen>
+        <dimen name="filtro_frag_height">600dp</dimen>
+
+    </resources>
+

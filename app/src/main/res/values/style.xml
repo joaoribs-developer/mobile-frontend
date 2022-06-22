@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Quality"/>
+
+    <style name="Quality.Button" parent="Quality">
+        <item name="android:background">@drawable/bg_botao_padrao</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Quality.Banner.Login" parent="Quality">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/banner16x9</item>
+        <item name="android:contentDescription">@string/description_logo_quality</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="Quality.Separator" parent="Quality" />
+    <style name="Quality.Separator.Shadow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:background">@drawable/sombra_suave</item>
+    </style>
+
+    <style name="Quality.Group" parent="Quality" />
+
+    <style name="Quality.Group.Topic" parent="Quality.Group">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_topic_layout</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_botao_topic</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Quality.Group.Formulario" parent="Quality.Group">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/formulario_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/formulario_padding_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/bg_formulario</item>
+    </style>
+
+    <style name="Quality.Group.DetalheTransacao" parent="Quality.Group">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/margin_vertical_card_detalhe</item>
+        <item name="android:paddingRight">@dimen/margin_horizontal_card_detalhe</item>
+        <item name="android:paddingBottom">@dimen/margin_vertical_card_detalhe</item>
+        <item name="android:paddingLeft">@dimen/margin_horizontal_card_detalhe</item>
+        <item name="android:background">@drawable/bg_branco_raio_suave</item>
+    </style>
+
+    <style name="Quality.Group.DetalheTransacao.Linha" parent="Quality.Group">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/padding_horizontal_card_linha</item>
+        <item name="android:paddingLeft">@dimen/padding_horizontal_card_linha</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Quality.EditText" parent="Quality">
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+
+    <style name="Quality.EditText.Formulario" parent="Quality.EditText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_edt_formulario</item>
+        <item name="android:textColorHint">@color/colorFormularioHintColor</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lines">1</item>
+        <item name="android:textSize">@dimen/formulario_text_size</item>
+    </style>
+
+    <style name="Quality.EditText.Formulario.Ip" parent="Quality.EditText.Formulario">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">30dp</item>
+        <item name="android:maxLength">3</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+
+
+    <style name="Quality.Separator.Vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorDivider</item>
+    </style>
+
+    <style name="Quality.Separator.Formulario">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorDividerFormulario</item>
+    </style>
+
+
+
+    <style name="Quality.Separator.Vertical.DetalheTransacao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_separador_detalhe</item>
+        <item name="android:layout_marginBottom">@dimen/margin_separador_detalhe</item>
+        <item name="android:background">@color/colorDividerSuave</item>
+    </style>
+
+</resources>

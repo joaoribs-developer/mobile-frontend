@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">activity_tela</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="entrar">Entrar</string>
+    <string name="description_logo_quality">Logo Quality</string>
+    <string name="login_usuario">Funcionário</string>
+    <string name="login_senha">Senha</string>
+</resources>
